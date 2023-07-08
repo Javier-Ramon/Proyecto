@@ -298,7 +298,9 @@ h3 {
 body{
     background-color:  #dac49f;
 }
-
+footer{
+    background-color:  #dac49f
+}
 @media (max-width: 551px) {
     * {
         margin: 0px;
