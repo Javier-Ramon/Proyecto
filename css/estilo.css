@@ -292,6 +292,12 @@ h3 {
 #accordionExample {
     text-decoration: none;
 }
+.text-body-secondary{
+    background-color: white !important;
+}
+body{
+    background-color:  #dac49f;
+}
 
 @media (max-width: 551px) {
     * {
