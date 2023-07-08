@@ -298,8 +298,11 @@ h3 {
         margin: 0px;
         padding: 0;
         font-family: sans-serif;
-        background-color: rgba(21, 201, 214, 0.897);
+        background-color: rgba(35, 158, 142, 0.897);
     }
+.img{
+    max-width: 40%;
+}
 
     .container {
         display: flex;
@@ -312,9 +315,14 @@ h3 {
             "Casa-4"
             "Casa-5"
             "Casa-6";
-
+max-width: 100%;
     }
-
+ .buscarinicio{
+    max-width: 100%;
+ }
+.uno{
+    max-width: 100%;
+}
     .btn-primary {
         background-color: rgb(0, 89, 255);
     }
@@ -325,5 +333,9 @@ h3 {
         justify-content: space-around;
         align-items: center;
         background-color: black;
+        max-width: 50px;
+    }
+    a{
+        max-width: 20px;
     }
 }
