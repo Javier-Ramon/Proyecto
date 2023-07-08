@@ -292,14 +292,15 @@ h3 {
 #accordionExample {
     text-decoration: none;
 }
-.text-body-secondary{
-    background-color: white !important;
-}
+
 body{
     background-color:  #dac49f;
 }
 footer{
     background-color:  #dac49f
+}
+.text-body-secondary{
+    background-color: white !important;
 }
 @media (max-width: 551px) {
     * {
