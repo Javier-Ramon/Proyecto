@@ -335,14 +335,14 @@ max-width: 100%;
     .btn-primary {
         background-color: rgb(0, 89, 255);
     }
-
+footer {
+    max-width: 40%;
+    display: flex;
+}
     .footer-prueba ul {
         display: flex;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-        align-items: center;
-        background-color: black;
-        max-width: 50px;
+        flex-direction: column;
+        max-width: 200px;
     }
    
 }
