@@ -289,7 +289,9 @@ h3 {
 .card-img-top{
     max-width: 100%;
 }
-
+#accordionExample {
+    text-decoration: none;
+}
 
 @media (max-width: 551px) {
     * {
