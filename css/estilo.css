@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgba(214, 189, 148, 0.897);
+}
+
+h1{
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.inicio {
+    background-color: #f3f5ec;
+    color: rgb(14, 12, 11);
+    font-style: italic;
+    font-size: medium;
+    text-align: center;
+    box-shadow: 5px 5px 5px #f1f0ef;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    border: solid 1px black;
+    padding: 5px;
+
+}
+
+h2 {
+    text-align: center;
+    font-style: italic;
+    border: solid 1px black;
+    padding: 5px;
+}
+
+.logo {
+    width: 100px;
+    border: solid 1px black;
+    height: 100px;
+    /* padding: 5px; */
+    /* display: inline-block; */
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    flex-wrap: nowrap;
+    align-items: baseline;
+}
+
+
+.header ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 950px;
+}
+
+.header a {
+    background-color: #d86e0c;
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover {
+    background-color: rgb(181, 197, 197);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+.botonbuscar {
+    width: 75px;
+    border: solid black;
+    text-align: center;
+    padding: 0;
+}
+
+.buscarinicio {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inicioimg {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section div {
+
+    text-align: flex-end;
+    justify-content: center;
+
+}
+
+.titulo {
+    text-align: center;
+}
+
+
+/* ESTO SE USA PARA CAMBIAR TIPOGRAFIA QUE NO TENEMOS DESCARGADA
+@font-face {
+    font-family: ;
+    src: url();
+}
+*/
+.uno {
+    font-family: sans-serif;
+    width: 1000px;
+    height: auto;
+
+
+}
+
+.dos {
+    font-family: sans-serif;
+    max-width: 1000px;
+    overflow: auto;
+    height: auto;
+
+}
+
+.negrita {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.Jplopez {
+    width: 350px;
+    height: 350px;
+}
+
+.Peru3600 {
+    width: 350px;
+    height: 350px;
+}
+
+.casasinicio {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: baseline;
+
+}
+
+.Visionyvalores {
+    text-align: center;
+    color: black;
+    border-bottom: black;
+    border: solid 1px black;
+    font-weight: bold;
+    width: 200px;
+    text-transform: uppercase;
+}
+
+
+.casas {
+    color: black;
+    text-transform: uppercase;
+    width: 200px;
+    text-decoration: none;
+}
+
+.asesor {
+    color: black;
+    text-transform: uppercase;
+}
+
+.alqui {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.parrafoalquileres {
+    text-align: center;
+}
+
+
+.grupo {
+    text-align: center;
+    font-weight: bold;
+}
+
+.grupodescripcion {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.atencion {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.tasaciones {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ubicacion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 800px;
+    height: 800px;
+}
+
+.footer-prueba ul {
+    display: flex;
+    width: 700px;
+    height: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+h4 {
+    color: black;
+    border: solid;
+    text-align: end;
+    height: 76px;
+    width: 136px;
+    text-align: center;
+}
+
+
+ .containers1 {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        ". Dueño-1 - Dueño-2 .";
+
+    justify-items: center; */
+
+}
+
+.Empleados {
+   
+     display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    justify-content: space-around;  
+     
+    }
+
+.Ituzaingo-ubicacion {
+    display: flex;
+    max-width: 800 px;
+}
+
+.ubicacionpropiedades {
+    display: flex;
+    max-width: 800 px;
+}
+
+h3 {
+    align-items: center;
+}
+
+.btn-primary {
+    background-color: rgb(255, 30, 0);
+}
+
+.card-img-top{
+    max-width: 100%;
+}
+#accordionExample {
+    text-decoration: none;
+}
+
+body{
+    background-color:  #dac49f;
+}
+footer{
+    background-color:  #dac49f
+}
+.text-body-secondary{
+    background-color: white !important;
+}
+
+@media (max-width: 551px) {
+    * {
+        margin: 0px;
+        padding: 0;
+        font-family: sans-serif;
+        background-color: rgba(35, 158, 142, 0.897);
+    }
+.img{
+    max-width: 40%;
+}
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "Casa1"
+            "Casa-2"
+            "Casa-3"
+            "Casa-4"
+            "Casa-5"
+            "Casa-6";
+max-width: 100%;
+    }
+ .buscarinicio{
+    max-width: 100%;
+ }
+.uno{
+    max-width: 100%;
+}
+    .btn-primary {
+        background-color: rgb(0, 89, 255);
+    }
+footer {
+    max-width: 40%;
+    display: flex;
+}
+    .footer-prueba ul {
+        display: flex;
+        flex-direction: column;
+        max-width: 200px;
+    }
+   
+}
