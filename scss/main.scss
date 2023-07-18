@@ -1,0 +1,18 @@
+@import  './main.scss';
+@import  './header';
+@import  './meiinn';
+@import  './footer';
+@import  './mediaqueris';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgba(214, 189, 148, 0.897);
+}
+body{
+    background-color:  #dac49f;
+}

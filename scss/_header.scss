@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    .logo {
+        width: 100px;
+        border: solid 1px black;
+        height: 100px;
+       
+    }
+    .ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        width: 950px;
+    }
+    .a {
+        background-color: #d86e0c;
+        text-decoration: none;
+        color: black;
+    
+    }
+}
+a:hover {
+    background-color: rgb(181, 197, 197);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}

@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: rgba(214, 189, 148, 0.897); }
+
+body {
+  background-color: #dac49f; }
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  flex-wrap: nowrap;
+  align-items: baseline; }
+  header .ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 950px; }
+  header .a {
+    background-color: #d86e0c;
+    text-decoration: none;
+    color: black; }
+
+a:hover {
+  background-color: #b5c5c5;
+  color: white;
+  font-weight: bold;
+  padding: 5px; }
+
+footer {
+  background-color: #dac49f; }
+  footer ul {
+    display: flex;
+    width: 700px;
+    height: 50px;
+    flex-direction: row;
+    justify-content: space-around; }
+
+@media (max-width: 551px) {
+  * {
+    margin: 0px;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgba(35, 158, 142, 0.897); }
+  .img {
+    max-width: 40%; }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr;
+    grid-template-areas: "Casa1"
+ "Casa-2"
+ "Casa-3"
+ "Casa-4"
+ "Casa-5"
+ "Casa-6";
+    max-width: 100%; }
+  .buscarinicio {
+    max-width: 100%; }
+  .uno {
+    max-width: 100%; }
+  .btn-primary {
+    background-color: #0059ff; }
+  footer {
+    max-width: 40%;
+    display: flex; }
+    footer .footer-prueba ul {
+      display: flex;
+      flex-direction: column;
+      max-width: 200px; } }

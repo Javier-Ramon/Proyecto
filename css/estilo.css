@@ -1,50 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap');
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
     background-color: rgba(214, 189, 148, 0.897);
-}
+}  */
 
-h1{
+/* h1{
     text-transform: uppercase;
     padding: 10px;
-}
+}  */
 
-.inicio {
+ /* .inicio {
     background-color: #f3f5ec;
     color: rgb(14, 12, 11);
     font-style: italic;
     font-size: medium;
     text-align: center;
     box-shadow: 5px 5px 5px #f1f0ef;
-}
+}  */
 
-h1 {
+ /* h1 {
     text-align: center;
     font-style: italic;
     border: solid 1px black;
     padding: 5px;
 
-}
+} */
 
-h2 {
+/* h2 {
     text-align: center;
     font-style: italic;
     border: solid 1px black;
     padding: 5px;
-}
+} */
 
-.logo {
+/* .logo {
     width: 100px;
     border: solid 1px black;
     height: 100px;
-    /* padding: 5px; */
-    /* display: inline-block; */
-}
+   
+} */
 
-header {
+/* header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -52,76 +51,77 @@ header {
     list-style: none;
     flex-wrap: nowrap;
     align-items: baseline;
-}
+} */
 
 
-.header ul {
+/* .header ul {
     display: flex;
     list-style: none;
     justify-content: space-evenly;
     width: 950px;
-}
+} */
 
-.header a {
+/* .header a {
     background-color: #d86e0c;
     text-decoration: none;
     color: black;
 
-}
+} */
 
-a:hover {
+/* a:hover {
     background-color: rgb(181, 197, 197);
     color: white;
     font-weight: bold;
     padding: 5px;
-}
+} */
 
 
-.botonbuscar {
+/* .botonbuscar {
     width: 75px;
     border: solid black;
     text-align: center;
     padding: 0;
-}
+} */
 
-.buscarinicio {
+/* .buscarinicio {
     display: flex;
     align-items: center;
     flex-direction: column;
-}
+} */
 
-.inicioimg {
+/* .inicioimg {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-}
+} */
 
-.section {
+/* .section {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-}
+} */
 
-.section div {
+/* .section div {
 
     text-align: flex-end;
     justify-content: center;
 
-}
+} */
 
-.titulo {
+/* .titulo {
     text-align: center;
-}
+    text-transform: uppercase;
+}  */
 
 
 /* ESTO SE USA PARA CAMBIAR TIPOGRAFIA QUE NO TENEMOS DESCARGADA
 @font-face {
     font-family: ;
     src: url();
-}
-*/
-.uno {
+} */
+
+/* .uno {
     font-family: sans-serif;
     width: 1000px;
     height: auto;
@@ -191,10 +191,10 @@ a:hover {
 
 .parrafoalquileres {
     text-align: center;
-}
+} */
 
 
-.grupo {
+/* .grupo {
     text-align: center;
     font-weight: bold;
 }
@@ -203,9 +203,9 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-}
+} */
 
-.atencion {
+/* .atencion {
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
@@ -224,19 +224,19 @@ a:hover {
     align-items: flex-end;
     width: 800px;
     height: 800px;
-}
+} */
 
-.footer-prueba ul {
+/* .footer-prueba ul {
     display: flex;
     width: 700px;
     height: 50px;
     flex-direction: row;
     justify-content: space-around;
-}
+} pasado */
 
 
 
-h4 {
+/* h4 {
     color: black;
     border: solid;
     text-align: end;
@@ -251,7 +251,7 @@ h4 {
     flex-direction: row;
     align-items: stretch;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: space-around; */
     /* display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -260,9 +260,9 @@ h4 {
 
     justify-items: center; */
 
-}
+/* } */
 
-.Empleados {
+/* .Empleados {
    
      display: flex;
     flex-direction: row;
@@ -295,19 +295,19 @@ h3 {
 }
 #accordionExample {
     text-decoration: none;
-}
+} */
 
-body{
+/* body{
     background-color:  #dac49f;
-}
-footer{
+} */
+/* footer{
     background-color:  #dac49f
-}
-.text-body-secondary{
+} pasado */
+/* .text-body-secondary{
     background-color: white !important;
-}
+} */
 
-@media (max-width: 551px) {
+/* @media (max-width: 551px) {
     * {
         margin: 0px;
         padding: 0;
@@ -350,4 +350,4 @@ footer {
         max-width: 200px;
     }
    
-}
+} */
