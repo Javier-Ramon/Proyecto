@@ -1,13 +1,5 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  background-color: rgba(214, 189, 148, 0.897); }
-
-body {
-  background-color: #dac49f; }
-
 header {
   display: flex;
   flex-direction: row;
@@ -16,6 +8,10 @@ header {
   list-style: none;
   flex-wrap: nowrap;
   align-items: baseline; }
+  header .logo {
+    width: 100px;
+    border: solid 1px black;
+    height: 100px; }
   header .ul {
     display: flex;
     list-style: none;
@@ -31,6 +27,161 @@ a:hover {
   color: white;
   font-weight: bold;
   padding: 5px; }
+
+h1 {
+  text-transform: uppercase;
+  padding: 10px;
+  text-align: center;
+  font-style: italic;
+  border: solid 1px black; }
+  h1 .inicio {
+    background-color: #f3f5ec;
+    color: #0e0c0b;
+    font-style: italic;
+    font-size: medium;
+    text-align: center;
+    box-shadow: 5px 5px 5px #f1f0ef; }
+
+h2 {
+  text-align: center;
+  font-style: italic;
+  border: solid 1px black;
+  padding: 5px;
+  text-transform: uppercase; }
+  h2 .titulo {
+    text-align: center;
+    text-transform: uppercase; }
+  h2 .grupo {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase; }
+  h2 .grupodescripcion {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; }
+
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column; }
+  section .botonbuscar {
+    width: 75px;
+    border: solid black;
+    text-align: center;
+    padding: 0; }
+  section .buscarinicio {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+  section .inicioimg {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center; }
+  section .div {
+    text-align: flex-end;
+    justify-content: center; }
+  section .uno {
+    font-family: sans-serif;
+    width: 1000px;
+    height: auto; }
+  section .dos {
+    font-family: sans-serif;
+    max-width: 1000px;
+    overflow: auto;
+    height: auto; }
+  section .negrita {
+    font-weight: bold;
+    text-transform: uppercase; }
+  section .Jplopez {
+    width: 350px;
+    height: 350px; }
+  section .Peru3600 {
+    width: 350px;
+    height: 350px; }
+  section .casasinicio {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: baseline; }
+  section .Visionyvalores {
+    text-align: center;
+    color: black;
+    border-bottom: black;
+    border: solid 1px black;
+    font-weight: bold;
+    width: 200px;
+    text-transform: uppercase; }
+  section .casas {
+    color: black;
+    text-transform: uppercase;
+    width: 200px;
+    text-decoration: none; }
+  section .asesor {
+    color: black;
+    text-transform: uppercase; }
+  section .alqui {
+    text-transform: uppercase;
+    text-align: center; }
+  section .parrafoalquileres {
+    text-align: center; }
+  section .atencion {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold; }
+  section .tasaciones {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center; }
+  section .ubicacion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 800px;
+    height: 800px; }
+  section h4 {
+    color: black;
+    border: solid;
+    text-align: end;
+    height: 76px;
+    width: 136px;
+    text-align: center; }
+  section .containers1 {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        ". Dueño-1 - Dueño-2 .";
+
+    justify-items: center; */ }
+  section .Empleados {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    justify-content: space-around; }
+  section .Ituzaingo-ubicacion {
+    display: flex;
+    max-width: 800 px; }
+  section .ubicacionpropiedades {
+    display: flex;
+    max-width: 800 px; }
+  section h3 {
+    align-items: center; }
+  section .btn-primary {
+    background-color: #ff1e00; }
+  section .card-img-top {
+    max-width: 100%; }
+  section #accordionExample {
+    text-decoration: none; }
+  section .text-body-secondary {
+    background-color: white !important; }
 
 footer {
   background-color: #dac49f; }
@@ -53,12 +204,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     grid-template-columns: 1fr;
-    grid-template-areas: "Casa1"
- "Casa-2"
- "Casa-3"
- "Casa-4"
- "Casa-5"
- "Casa-6";
+    grid-template-areas: "Casa1" "Casa-2" "Casa-3" "Casa-4" "Casa-5" "Casa-6";
     max-width: 100%; }
   .buscarinicio {
     max-width: 100%; }
@@ -73,3 +219,12 @@ footer {
       display: flex;
       flex-direction: column;
       max-width: 200px; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: rgba(214, 189, 148, 0.897); }
+
+body {
+  background-color: #dac49f; }
