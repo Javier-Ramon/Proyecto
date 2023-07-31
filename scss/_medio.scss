@@ -1,9 +1,10 @@
-h1{
+h1 {
     text-transform: uppercase;
     padding: 10px;
     text-align: center;
     font-style: italic;
     border: solid 1px black;
+
     .inicio {
         background-color: #f3f5ec;
         color: rgb(14, 12, 11);
@@ -11,9 +12,9 @@ h1{
         font-size: medium;
         text-align: center;
         box-shadow: 5px 5px 5px #f1f0ef;
-        
-    } 
-} 
+
+    }
+}
 
 h2 {
     text-align: center;
@@ -21,89 +22,102 @@ h2 {
     border: solid 1px black;
     padding: 5px;
     text-transform: uppercase;
+    margin: 35px;
+
     .titulo {
         text-align: center;
         text-transform: uppercase;
-    } 
+        margin: 100px;
+    }
+
     .grupo {
         text-align: center;
         font-weight: bold;
         text-transform: uppercase;
     }
-    
+
     .grupodescripcion {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
     }
 }
+
 section {
     display: flex;
+    flex-direction: row;
+    margin: 10px;
     justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
+    margin: 10px;
+
     .botonbuscar {
         width: 75px;
         border: solid black;
         text-align: center;
         padding: 0;
     }
+
     .buscarinicio {
         display: flex;
         align-items: center;
         flex-direction: column;
     }
+
     .inicioimg {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
     }
+
     .div {
 
         text-align: flex-end;
         justify-content: center;
-    
+
     }
+
     .uno {
         font-family: sans-serif;
         width: 1000px;
         height: auto;
-    
-    
+        margin: 25px;
+
+
     }
-    
+
     .dos {
         font-family: sans-serif;
         max-width: 1000px;
         overflow: auto;
         height: auto;
-    
+        margin: 35px;
+
     }
-    
+
     .negrita {
         font-weight: bold;
         text-transform: uppercase;
     }
-    
-    
+
+
     .Jplopez {
         width: 350px;
         height: 350px;
     }
-    
+
     .Peru3600 {
         width: 350px;
         height: 350px;
     }
-    
+
     .casasinicio {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         align-items: baseline;
-    
+
     }
-    
+
     .Visionyvalores {
         text-align: center;
         color: black;
@@ -113,41 +127,42 @@ section {
         width: 200px;
         text-transform: uppercase;
     }
-    
-    
+
+
     .casas {
         color: black;
         text-transform: uppercase;
         width: 200px;
         text-decoration: none;
     }
-    
+
     .asesor {
         color: black;
         text-transform: uppercase;
     }
-    
+
     .alqui {
         text-transform: uppercase;
         text-align: center;
     }
-    
+
     .parrafoalquileres {
         text-align: center;
     }
+
     .atencion {
         text-transform: uppercase;
         text-align: center;
         font-weight: bold;
     }
-    
+
     .tasaciones {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
     }
-    
+
     .ubicacion {
         display: flex;
         flex-direction: column;
@@ -155,6 +170,7 @@ section {
         width: 800px;
         height: 800px;
     }
+
     h4 {
         color: black;
         border: solid;
@@ -163,56 +179,64 @@ section {
         width: 136px;
         text-align: center;
     }
-    
-    
-     .containers1 {
+
+
+    .containers1 {
         display: flex;
-        flex-direction: row;
-        align-items: stretch;
-        flex-wrap: nowrap;
         justify-content: space-around;
-            /* display: grid;
+        align-items: baseline;
+        flex-direction: row;
+    
+
+    /* display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
         ". Dueño-1 - Dueño-2 .";
 
-    justify-items: center; */ }
-    .Empleados {
-   
-        display: flex;
-       flex-direction: row;
-       align-items: stretch;
-       flex-wrap: nowrap;
-       justify-content: space-around;  
-        
-       }
-   
-   .Ituzaingo-ubicacion {
-       display: flex;
-       max-width: 800 px;
-   }
-   
-   .ubicacionpropiedades {
-       display: flex;
-       max-width: 800 px;
-   }
-   
-   h3 {
-       align-items: center;
-   }
-   
-   .btn-primary {
-       background-color: rgb(255, 30, 0);
-   }
-   
-   .card-img-top{
-       max-width: 100%;
-   }
-   #accordionExample {
-       text-decoration: none;
-   }
-   .text-body-secondary{
+    justify-items: center; */
+}
+
+.Empleados {
+
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 30px;
+
+    
+
+}
+
+.Ituzaingo-ubicacion {
+    display: flex;
+    max-width: 800 px;
+}
+
+.ubicacionpropiedades {
+    display: flex;
+    max-width: 800 px;
+}
+
+h3 {
+    align-items: center;
+}
+
+.btn-primary {
+    background-color: rgb(255, 30, 0);
+}
+
+.card-img-top {
+    max-width: 100%;
+}
+
+#accordionExample {
+    text-decoration: none;
+}
+
+.text-body-secondary {
     background-color: white !important;
 }
 

@@ -51,10 +51,12 @@ h2 {
   font-style: italic;
   border: solid 1px black;
   padding: 5px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin: 35px; }
   h2 .titulo {
     text-align: center;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin: 100px; }
   h2 .grupo {
     text-align: center;
     font-weight: bold;
@@ -66,9 +68,10 @@ h2 {
 
 section {
   display: flex;
+  flex-direction: row;
+  margin: 10px;
   justify-content: space-around;
-  align-items: center;
-  flex-direction: column; }
+  margin: 10px; }
   section .botonbuscar {
     width: 75px;
     border: solid black;
@@ -88,12 +91,14 @@ section {
   section .uno {
     font-family: sans-serif;
     width: 1000px;
-    height: auto; }
+    height: auto;
+    margin: 25px; }
   section .dos {
     font-family: sans-serif;
     max-width: 1000px;
     overflow: auto;
-    height: auto; }
+    height: auto;
+    margin: 35px; }
   section .negrita {
     font-weight: bold;
     text-transform: uppercase; }
@@ -153,10 +158,9 @@ section {
     text-align: center; }
   section .containers1 {
     display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    flex-wrap: nowrap;
     justify-content: space-around;
+    align-items: baseline;
+    flex-direction: row;
     /* display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -169,7 +173,8 @@ section {
     flex-direction: row;
     align-items: stretch;
     flex-wrap: nowrap;
-    justify-content: space-around; }
+    justify-content: space-around;
+    padding: 30px; }
   section .Ituzaingo-ubicacion {
     display: flex;
     max-width: 800 px; }
