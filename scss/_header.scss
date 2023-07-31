@@ -25,6 +25,12 @@ header {
         color: black;
     
     }
+    .nav-link{
+        text-transform: uppercase;
+    }
+    .navbar-brand{
+        text-transform: uppercase;
+    }
 }
 a:hover {
     background-color: rgb(181, 197, 197);

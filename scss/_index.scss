@@ -1,0 +1,28 @@
+.logo {
+    width: 100px;
+    border: solid 1px black;
+    height: 100px;
+
+}
+
+h1{
+    text-transform: uppercase;
+    padding: 10px;
+    .inicio {
+        background-color: #f3f5ec;
+        color: rgb(14, 12, 11);
+        font-style: italic;
+        font-size: medium;
+        text-align: center;
+        box-shadow: 5px 5px 5px #f1f0ef;
+        text-transform: uppercase;
+    }
+}
+
+
+h2 {
+    text-align: center;
+    font-style: italic;
+    border: solid 1px black;
+    padding: 5px;
+}

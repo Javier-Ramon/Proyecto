@@ -21,6 +21,10 @@ header {
     background-color: #d86e0c;
     text-decoration: none;
     color: black; }
+  header .nav-link {
+    text-transform: uppercase; }
+  header .navbar-brand {
+    text-transform: uppercase; }
 
 a:hover {
   background-color: #b5c5c5;
