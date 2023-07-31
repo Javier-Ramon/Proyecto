@@ -31,9 +31,17 @@ max-width: 100%;
     .btn-primary {
         background-color: rgb(0, 89, 255);
     }
+    .carousel1{
+        width: auto;
+        height: auto;
+        .img{
+            max-width: 50%;
+        }
+    }
 footer {
     max-width: 40%;
     display: flex;
+    align-items: baseline;
 
     .footer-prueba ul {
         display: flex;
