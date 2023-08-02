@@ -239,5 +239,10 @@ section {
     .text-body-secondary {
         background-color: white !important;
     }
-
+.contactos-cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-direction: row;
+}
 }
