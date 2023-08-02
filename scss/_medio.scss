@@ -45,7 +45,7 @@ h2 {
 
 section {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 10px;
     justify-content: space-around;
     margin: 10px;
@@ -186,58 +186,58 @@ section {
         justify-content: space-around;
         align-items: baseline;
         flex-direction: row;
-    
 
-    /* display: grid;
+
+        /* display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
         ". Dueño-1 - Dueño-2 .";
 
     justify-items: center; */
-}
+    }
 
-.Empleados {
+    .Empleados {
 
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    padding: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        padding: 30px;
 
-    
 
-}
 
-.Ituzaingo-ubicacion {
-    display: flex;
-    max-width: 800 px;
-}
+    }
 
-.ubicacionpropiedades {
-    display: flex;
-    max-width: 800 px;
-}
+    .Ituzaingo-ubicacion {
+        display: flex;
+        max-width: 800 px;
+    }
 
-h3 {
-    align-items: center;
-}
+    .ubicacionpropiedades {
+        display: flex;
+        max-width: 800 px;
+    }
 
-.btn-primary {
-    background-color: rgb(255, 30, 0);
-}
+    h3 {
+        align-items: center;
+    }
 
-.card-img-top {
-    max-width: 100%;
-}
+    .btn-primary {
+        background-color: rgb(255, 30, 0);
+    }
 
-#accordionExample {
-    text-decoration: none;
-}
+    .card-img-top {
+        max-width: 100%;
+    }
 
-.text-body-secondary {
-    background-color: white !important;
-}
+    #accordionExample {
+        text-decoration: none;
+    }
+
+    .text-body-secondary {
+        background-color: white !important;
+    }
 
 }
