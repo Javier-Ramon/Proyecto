@@ -196,6 +196,8 @@ section {
     justify-content: space-around;
     align-items: baseline;
     flex-direction: row; }
+  section main {
+    min-height: 90vh; }
 
 footer {
   background-color: #dac49f; }
@@ -263,3 +265,6 @@ footer {
 
 body {
   background-color: #dac49f; }
+
+main {
+  min-height: 90vh; }
